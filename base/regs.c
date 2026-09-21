@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int roll_no;
+    long roll_no;
     char name[50];
     char father_name[50];
     char mother_name[50];
@@ -12,7 +12,7 @@ int main() {
     char email[50];
 
     printf("What is your roll number?\n");
-    scanf("%d", &roll_no);
+    scanf("%ld", &roll_no);
 
     printf("What is your name?\n");
     scanf(" %[^\n]", name);
